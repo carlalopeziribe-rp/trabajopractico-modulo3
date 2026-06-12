@@ -1,4 +1,5 @@
 import Hero from "../components/Hero"
+import NuestrosServicios from "../components/NuestrosServicios"
 
 function Home() {
   return (
@@ -6,6 +7,7 @@ function Home() {
       <div className="row">
         <div className="col">
           <Hero />
+          <NuestrosServicios />
         </div>
       </div>
     </div>
