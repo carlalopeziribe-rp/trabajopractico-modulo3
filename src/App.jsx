@@ -1,9 +1,14 @@
 import { Routes, Route } from 'react-router-dom'
-import './App.css'
+import Home from './pages/Home.jsx'
+import Servicios from './pages/Servicios.jsx'
+import TuRutina from './pages/TuRutina.jsx'
+import Contacto from './pages/Contacto.jsx'
+import NavBar from './components/NavBar.jsx'
 
 function App() {
     return (
         <div>
+            <NavBar />
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path='/servicios' element={<Servicios />} />
