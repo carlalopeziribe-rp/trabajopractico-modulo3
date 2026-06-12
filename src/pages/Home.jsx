@@ -1,6 +1,15 @@
+import NavBar from "../components/NavBar"
+import Hero from "../components/Hero"
+
 function Home() {
   return (
-    <h1>Home</h1>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="col">
+          <Hero />
+        </div>
+      </div>
+    </div>
   )
 }
 
