@@ -34,6 +34,19 @@ export default function NuestroEspacio() {
                     </div>
                 </div>
             </div>
+            <div className="content-indicators">
+                {
+                    imagenesCarrusel.map((imagen, indice) => {
+                        return (
+                            <div
+                                key={indice}
+                                className={indice === imagenActual ? 'indicator active' : 'indicator'}
+                                onClick={() => setImagenActual(indice)}>
+                            </div>
+                        )
+                    })
+                }
+            </div>
         </section>
     )
 }
