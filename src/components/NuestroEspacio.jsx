@@ -25,9 +25,9 @@ export default function NuestroEspacio() {
                     </div>
                 </div>
             </div>
-            <div class="container carrusel-container">
-                <div class="carrusel" id="carrusel">
-                    <div class="carrusel-item">
+            <div className="container carrusel-container">
+                <div className="carrusel" id="carrusel">
+                    <div className="carrusel-item">
                         <img
                             src={imagenesCarrusel[imagenActual]}
                             alt="Nuestro espacio" />
