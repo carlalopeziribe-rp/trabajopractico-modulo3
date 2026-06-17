@@ -1,0 +1,32 @@
+.cardTitle {
+    font-weight: 600;
+    color: #545454;
+}
+
+.imagen {
+    height: 250px;
+    object-fit: cover;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem;
+}
+
+.cardTextServicios {
+    font-size: medium;
+    font-weight: 500;
+    color: #545454;
+}
+
+.btnVerMas {
+    background-color: #6f8f72;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid #6f8f72;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-top: auto;
+}

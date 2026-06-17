@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import styles from './CardServicio.module.css'
 
 export default function CardServicio({
     imagen,
@@ -11,16 +12,16 @@ export default function CardServicio({
             <img
                 src={imagen}
                 alt={titulo}
-                className="card-img-top"
+                className={`card-img-top ${styles.imagen}`}
             />
-            <div className="card-body">
-                <h5 className="card-title text-center">
+            <div className={styles.cardBody}>
+                <h5 className={styles.cardTitle}>
                     {titulo}
                 </h5>
-                <p className="card-text-servicios">
+                <p className={styles.cardTextServicios}>
                     {descripcion}
                 </p>
-                <Link to={enlace}>
+                <Link className={styles.btnVerMas} to={enlace}>
                     Ver más
                 </Link>
             </div>
