@@ -1,4 +1,5 @@
 import portadainicio from '../assets/PortadaInicio.jpg'
+import styles from './Hero.module.css'
 
 export default function Hero() {
     return (
@@ -7,7 +8,7 @@ export default function Hero() {
                 <div className="row">
                     <div className="col">
                         <img
-                            className="foto-portada img-fluid mx-auto d-block"
+                            className={`${styles.fotoPortada} img-fluid mx-auto d-block`}
                             src={portadainicio}
                             alt="Difusor de aromas de madera con vapor, acompañado de toallas blancas y elementos de spa sobre una bandeja"
                         />
@@ -15,8 +16,8 @@ export default function Hero() {
                 </div>
                 <div className="row">
                     <div className="col">
-                        <h1 className="presentacion">MI Centro de Bienestar</h1>
-                        <p className="texto-presentacion">
+                        <h1 className={styles.presentacion}>MI Centro de Bienestar</h1>
+                        <p className={styles.textoPresentacion}>
                             Un espacio dedicado al cuidado del cuerpo y la mente mediante
                             masajes y tratamientos faciales y corporales.
                         </p>
