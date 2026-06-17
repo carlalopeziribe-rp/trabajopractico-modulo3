@@ -1,0 +1,36 @@
+.carruselContainer {
+   position: relative;
+   max-width: 1000px;
+   margin: 20px auto;
+   overflow: hidden;
+}
+
+.carruselItem img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.contentIndicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(181, 202, 183, 0.8);
+    cursor: pointer;
+    transition: background .3s;
+}
+
+.active {
+    background-color: rgb(181, 202, 183);
+}

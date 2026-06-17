@@ -4,6 +4,7 @@ import Carrusel2 from '../assets/Carrusel2.jpg'
 import Carrusel3 from '../assets/Carrusel3.jpg'
 import Carrusel4 from '../assets/Carrusel4.jpg'
 import Carrusel5 from '../assets/Carrusel5.jpg'
+import styles from './NuestroEspacio.module.css'
 
 const imagenesCarrusel = [
     Carrusel1,
@@ -25,27 +26,32 @@ export default function NuestroEspacio() {
                     </div>
                 </div>
             </div>
-            <div className="container carrusel-container">
+            <div className={`container ${styles.carruselContainer}`}>
                 <div className="carrusel" id="carrusel">
-                    <div className="carrusel-item">
+                    <div className={styles.carruselItem}>
                         <img
                             src={imagenesCarrusel[imagenActual]}
                             alt="Nuestro espacio" />
                     </div>
                 </div>
-            </div>
-            <div className="content-indicators">
-                {
-                    imagenesCarrusel.map((imagen, indice) => {
-                        return (
-                            <div
-                                key={indice}
-                                className={indice === imagenActual ? 'indicator active' : 'indicator'}
-                                onClick={() => setImagenActual(indice)}>
-                            </div>
-                        )
-                    })
-                }
+                <div className={styles.contentIndicators}>
+                    {
+                        imagenesCarrusel.map((imagen, indice) => {
+                            return (
+                                <div
+                                    key={indice}
+                                    className={
+                                        indice === imagenActual
+                                            ? `${styles.indicator} ${styles.active}`
+                                            : styles.indicator
+                                    }
+                                    onClick={() => setImagenActual(indice)}
+                                >
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </div>
         </section>
     )
