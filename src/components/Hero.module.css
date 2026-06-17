@@ -7,14 +7,14 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    margin: 30px;
+    margin: 30px 0;
     text-align: center;
     color: #6f8f72;
     text-shadow: 2px 2px 15px #b5cab7;
 }
 
 .textoPresentacion {
-    font-size: large;
+    font-size: 1.2rem;
     text-align: center;
     font-weight: 500;
     font-optical-sizing: auto;
