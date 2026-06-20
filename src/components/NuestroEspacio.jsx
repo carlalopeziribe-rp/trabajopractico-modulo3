@@ -22,16 +22,17 @@ export default function NuestroEspacio() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2 className='presentacion-lugar'>Nuestro Espacio</h2>
+                        <h2 className={styles.presentacionLugar}>Nuestro Espacio</h2>
                     </div>
                 </div>
             </div>
-            <div className={`container ${styles.carruselContainer}`}>
-                <div className="carrusel" id="carrusel">
+            <div className={`container-fluid ${styles.carruselContainer}`}>
+                <div>
                     <div className={styles.carruselItem}>
                         <img
                             src={imagenesCarrusel[imagenActual]}
-                            alt="Nuestro espacio" />
+                            alt="Nuestro espacio"
+                            className={styles.imagen} />
                     </div>
                 </div>
                 <div className={styles.contentIndicators}>

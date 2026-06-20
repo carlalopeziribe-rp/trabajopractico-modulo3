@@ -31,7 +31,7 @@ export default function NuestrosServicios() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2 className={styles.presentacionServicios}>Nuestros servicios</h2>
+                        <h2 className={styles.presentacionServicios}>Nuestros Servicios</h2>
                     </div>
                 </div>
             </div>

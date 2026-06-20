@@ -1,11 +1,20 @@
+.presentacionLugar {
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 30px;
+    text-align: center;
+    color: #6f8f72;
+    text-shadow: 2px 2px 15px #b5cab7;
+}
+
 .carruselContainer {
    position: relative;
-   max-width: 1000px;
    margin: 20px auto;
    overflow: hidden;
 }
 
-.carruselItem img {
+.imagen {
     width: 100%;
     height: 500px;
     object-fit: cover;
@@ -28,7 +37,7 @@
     border-radius: 50%;
     background-color: rgba(181, 202, 183, 0.8);
     cursor: pointer;
-    transition: background .3s;
+    transition: background .3s ease;
 }
 
 .active {

@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
+import styles from './Footer.module.css'
 
 export default function Footer() {
     return (
-        <div className="container container-ubicacion">
+        <div className="container-fluid mt-5">
             <div className="row">
                 <div className="col-md-4">
-                    <h5 className="ubicacion">¿Donde estamos?</h5>
+                    <h5 className={styles.ubicacion}>¿Donde estamos?</h5>
                     <address>Calle 43 1268, La Plata</address>
                     <p>2222-1234568</p>
                 </div>
