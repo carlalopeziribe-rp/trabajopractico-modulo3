@@ -30,3 +30,7 @@
     text-decoration: none;
     margin-top: auto;
 }
+
+.btnVerMas:hover {
+    background-color: #5f7c62;
+}

@@ -2,6 +2,7 @@ import ServiciosMasajes from '../assets/ServiciosMasajes.jpg'
 import ServiciosFaciales from '../assets/ServiciosFaciales.jpg'
 import ServiciosCorporales from '../assets/ServiciosCorporales.jpg'
 import CardServicio from './CardServicio.jsx'
+import styles from './NuestrosServicios.module.css'
 
 const servicios = [
     {
@@ -26,11 +27,11 @@ const servicios = [
 
 export default function NuestrosServicios() {
     return (
-        <section className="servicios">
+        <section className="mb-4">
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2 className="presentacion-servicios">Nuestros servicios</h2>
+                        <h2 className={styles.presentacionServicios}>Nuestros servicios</h2>
                     </div>
                 </div>
             </div>
