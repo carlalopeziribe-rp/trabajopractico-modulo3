@@ -1,0 +1,27 @@
+.cardTextPortada {
+    color: whitesmoke;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px #545454;
+    font-size: large;
+}
+
+.cardTitle {
+    color: whitesmoke;
+    font-weight: 600;
+    text-shadow: 1px 1px 5px #545454;
+}
+
+@media (max-width:442px) {
+    .cardTitle {
+        font-size: medium;
+        font-weight: 600;
+
+    }
+
+    .cardTextPortada {
+        font-size: small;
+        font-weight: 400;
+        line-height: normal;
+
+    }
+}

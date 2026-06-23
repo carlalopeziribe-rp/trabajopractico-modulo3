@@ -1,6 +1,8 @@
+import HeroServicios from "../components/HeroServicios"
+
 function Servicios() {
   return (
-    <h1>Servicios</h1>
+    < HeroServicios />
   )
 }
 
