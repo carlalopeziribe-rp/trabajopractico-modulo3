@@ -1,0 +1,35 @@
+.cardTitle {
+    font-weight: 600;
+    color: #6f8f72;
+}
+
+.cardTextServicios {
+    font-size: medium;
+    font-weight: 500;
+    color: #545454;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+ul li::marker {
+    color: #6f8f72;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.cardBody{
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardList {
+    margin-top: auto;
+}
